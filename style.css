@@ -1,0 +1,39 @@
+:root {
+    /* --slidev-code-background: rgba(125,125,125,0.03); */
+    /* --slidev-code-font-family: "Inconsolata",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+    --slidev-code-padding: 1rem;
+    --slidev-code-font-size: 1rem;
+    --slidev-code-line-height: 1.2rem;
+    /* --slidev-code-radius: 4px; */
+    --slidev-code-margin: 0.5rem;
+}
+
+.slidev-layout code {
+    font-weight: 500;
+}
+
+.slidev-layout.cover {
+    h1 {
+        text-align: center;
+        > * {
+            display: block;
+        }
+
+        span {
+            font-size: 1.05em;
+            padding-left: 1.1em;
+        }
+
+        strong {
+            font-size: 3em;
+            color: var(--purple)!important;
+            font-weight: normal;
+        }
+
+        small
+        {
+            margin-top: 0.7em;
+            font-size: 0.46em;
+        }
+    }
+}
