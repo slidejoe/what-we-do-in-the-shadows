@@ -8,7 +8,7 @@ Please stay in touch, ask questions and look at the repos.
 
 ::left::
 
-<img src="https://cdn.masto.host/umbracocommunitysocial/accounts/avatars/110/588/702/497/186/405/original/6c6676aa9fee4f41.jpg" class="aspect-square h-30 rounded-full mb-2" />
+<img src="jason.jpg" class="aspect-square h-30 rounded-full mb-2" />
 
 ## Jason Elkin
 
@@ -23,7 +23,7 @@ Please stay in touch, ask questions and look at the repos.
 
 ::right::
 
-<img src="https://cdn.masto.host/umbracocommunitysocial/accounts/avatars/110/588/598/848/640/615/original/a65ff91f10010cf8.png" class="aspect-square h-30 rounded-full mb-2" />
+<img src="joe.png" class="aspect-square h-30 rounded-full mb-2" />
 
 ## Joe Glombek
 

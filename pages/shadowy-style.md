@@ -14,6 +14,17 @@
   ```
 
 ---
+layout: image-right
+image: ./public/now-im-a-wizard.webp
+---
+
+# So I did something _horrible_...
+
+---
+
+Something else
+
+---
 layout: iframe
 
 # the web page source

@@ -1,8 +1,24 @@
+---
+layout: image-right
+image: 'public/excited.webp'
+---
+
 # What are web components?
 
-> Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
+---
+layout: quote
+---
+> # **Web Components** is a suite of different technologies allowing you to create *reusable custom elements* — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
 
-MDN
+\- MDN
+
+---
+layout: two-cols-header
+---
+
+# What are web components?
+
+::left::
 
 <v-clicks depth="2">
 
@@ -15,6 +31,13 @@ MDN
   - ES Modules
 
 </v-clicks>
+
+::right::
+<v-click>
+
+![](im-all-in.gif)
+
+</v-click>
 
 <!--
 - Web components are a set of web platform APIs that enable the creation of custom, reusable HTML elements.
