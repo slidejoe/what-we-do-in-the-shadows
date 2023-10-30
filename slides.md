@@ -8,6 +8,7 @@ fonts:
   mono: 'Inconsolata' #'Roboto Mono'
   weights: '200,300,400,500,600'
 class: font-serif
+titleTemplate: What we do in the Shadows
 title: What we do in the Shadows
 ---
 
@@ -16,6 +17,7 @@ title: What we do in the Shadows
     <strong>Shadows</strong>
     <small>Bringing legacy apps back to life with web components</small>
 </h1>
+
 
 ---
 src: './pages/bio.md'

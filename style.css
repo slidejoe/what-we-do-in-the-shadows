@@ -1,4 +1,15 @@
 :root {
+    --bump-haiti-violet: #200D2F;
+    /* --bump-bahama-blue: #006096; */
+    /* --bump-jacksons-purple: #293396;
+    --bump-deep-koamaru: #151F79; */
+    --bump-text: #fff;
+    /* --bump-mischka-grey: #E1E1E8; */
+    --bump-jade: #00B17C;
+    --bump-salmon: #FF8970;
+
+    --bump-bahama-blue-lightened: #14A9FF;
+
     /* --slidev-code-background: rgba(125,125,125,0.03); */
     /* --slidev-code-font-family: "Inconsolata",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
     --slidev-code-padding: 1rem;
@@ -6,6 +17,38 @@
     --slidev-code-line-height: 1.2rem;
     /* --slidev-code-radius: 4px; */
     --slidev-code-margin: 0.5rem;
+
+    /* --prism-foreground: #393a34;
+    --prism-background: #f8f8f8;
+    --prism-comment: #a0ada0;
+    --prism-string: #b56959;
+    --prism-literal: #2f8a89;
+    --prism-number: #296aa3;
+    --prism-keyword: #1c6b48;
+    --prism-function: #6c7834;
+    --prism-boolean: #1c6b48;
+    --prism-constant: #a65e2b;
+    --prism-deleted: #a14f55;
+    --prism-class: #2993a3;
+    --prism-builtin: #ab5959;
+    --prism-property: #b58451;
+    --prism-namespace: #b05a78;
+    --prism-punctuation: #8e8f8b;
+    --prism-decorator: #bd8f8f;
+    --prism-regex: #ab5e3f;
+    --prism-json-property: #698c96; */
+
+    --background: var(--bump-haiti-violet);
+    --current-line: hsl(232, 14%, 31%);
+    --foreground: var(--bump-text);
+    --comment: hsl(225, 27%, 51%);
+    --cyan: var(--bump-bahama-blue-lightened);
+    --green: var(--bump-jade);
+    --orange: var(--bump-salmon);
+    /* --pink: red; */
+    --purple: var(--bump-jade);
+    /* --red: red; */
+    --yellow: var(--bump-salmon);
 }
 
 .slidev-layout code {
@@ -13,7 +56,41 @@
 }
 
 .slidev-layout.cover {
+    background-image: linear-gradient(var(--background), var(--background)), url(smoke-bg.webp);
+    background-blend-mode: multiply;
+    background-blend-mode: hard-light;
+
     h1 {
+
+        transform: perspective(5em) rotateX(18deg);
+
+        --shadow: color-mix(in srgb, currentColor 50%, #200D2F);
+        text-shadow:
+            6px 6px var(--shadow),
+            5.75px 5.75px var(--shadow),
+            5.5px 5.5px var(--shadow),
+            5.25px 5.25px var(--shadow),
+            5px 5px var(--shadow),
+            4.75px 4.75px var(--shadow),
+            4.5px 4.5px var(--shadow),
+            4.25px 4.25px var(--shadow),
+            4px 4px var(--shadow),
+            3.75px 3.75px var(--shadow),
+            3.5px 3.5px var(--shadow),
+            3.25px 3.25px var(--shadow),
+            3px 3px var(--shadow),
+            2.75px 2.75px var(--shadow),
+            2.5px 2.5px var(--shadow),
+            2.25px 2.25px var(--shadow),
+            2px 2px var(--shadow),
+            1.75px 1.75px var(--shadow),
+            1.5px 1.5px var(--shadow),
+            1.25px 1.25px var(--shadow),
+            1px 1px var(--shadow),
+            0.75px 0.75px var(--shadow),
+            0.5px 0.5px var(--shadow),
+            0.25px 0.25px var(--shadow);
+
         text-align: center;
 
         >* {

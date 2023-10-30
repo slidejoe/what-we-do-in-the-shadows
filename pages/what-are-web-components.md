@@ -1,6 +1,6 @@
 ---
 layout: image-right
-image: 'public/excited.webp'
+image: 'excited.webp'
 ---
 
 # What are web components?

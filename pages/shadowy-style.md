@@ -15,7 +15,7 @@
 
 ---
 layout: image-right
-image: ./public/now-im-a-wizard.webp
+image: now-im-a-wizard.webp
 ---
 
 # So I did something _horrible_...
