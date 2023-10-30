@@ -15,7 +15,8 @@
 .slidev-layout.cover {
     h1 {
         text-align: center;
-        > * {
+
+        >* {
             display: block;
         }
 
@@ -26,14 +27,43 @@
 
         strong {
             font-size: 3em;
-            color: var(--purple)!important;
+            color: var(--purple) !important;
             font-weight: normal;
         }
 
-        small
-        {
+        small {
             margin-top: 0.7em;
             font-size: 0.46em;
+        }
+    }
+}
+
+
+/* */
+ul {
+    margin-left: 0;
+
+    &:has(li > svg:first-child) {
+        list-style: none;
+        padding-left: 0;
+
+    }
+
+    li {
+        &:has(> svg:first-child) {
+            display: block;
+            padding-left: 1.5em;
+            margin-left: 0;
+        }
+
+        &>svg:first-child {
+            --icon-scale: 1;
+            --icon-scale-i: calc(1/var(--icon-scale));
+
+            margin-left: calc(-1.5em * var(--icon-scale-i));
+            padding: 0 calc(((1.5em * var(--icon-scale-i)) - 1.25em) / 2);
+
+            font-size: calc(1em * var(--icon-scale));
         }
     }
 }
