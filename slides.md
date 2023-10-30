@@ -46,6 +46,7 @@ MDN
 ---
 
 # Traditional use cases for web components
+
 <v-clicks>
 
 - <mdi-form-textbox /> custom form controls, such as date pickers, input fields, and dropdowns
@@ -64,6 +65,7 @@ MDN
 ---
 
 # How do web components relate to Umbraco?
+
 - <mdi-hand-okay /> Belissima!
 - <mdi-umbraco /> The backoffice is built with web components and the UUI web component library
 - You can use UUI in Umbraco and outside Umbraco
@@ -97,12 +99,25 @@ MDN
 
 # Lit
 
-- Lit is a lightweight, highly efficient library for building web components.
-- It simplifies web component development by providing a small API for reactive data binding, templates, and rendering.
-- Lit's lit-html template system offers a performant way to define and update component templates.
-- It's a powerful choice for rapidly creating web components with minimal overhead.
-- UUI uses Lit
-- *Don't use it* for everything. It's really designed for UI libraries
+<div class="flex items-start">
+  <div>
+
+  - Lit is a lightweight, highly efficient library for building web components.
+  - It simplifies web component development by providing a small API for reactive data binding, templates, and rendering.
+  - Lit's lit-html template system offers a performant way to define and update component templates.
+  - It's a powerful choice for rapidly creating web components with minimal overhead.
+  - UUI uses Lit
+  - _Don't use it_ for everything. It's really designed for UI libraries
+
+  <div class="mt-10">
+
+  <mdi-link/> [lit.dev](https://lit.dev/)
+
+  </div>
+  </div>
+  <img src="/lit.svg" class="m-10 w-70"/>
+</div>
+
 ---
 
 # Joe's unusual use-case
@@ -115,9 +130,8 @@ MDN
   ```
 - Javascript encapsulation inside the shadow DOM doesn't work when using a framework
   ```js
-  document.querySelectorAll('.my-item-inside-shadow-dom') // returns nothing ☹️
+  document.querySelectorAll('.my-item-inside-shadow-dom'); // returns nothing ☹️
   ```
-
 
 ---
 
