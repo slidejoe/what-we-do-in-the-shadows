@@ -10,9 +10,9 @@ title: "Bio"
 # Jason Elkin
 
 - <mdi-briefcase-variant /> Full-stack web developer at Bump
-- <mdi-human-greeting-proximity /> Meetup organiser*
-- <mdi-trophy /> 2x Umbraco MVP
-- <material-symbols-family-restroom /> 2x Daddy
+- <mdi-human-greeting-proximity /> Meetup organiser<v-click>**\***</v-click>
+- <mdi-trophy /> 2&times; Umbraco MVP
+- <material-symbols-family-restroom /> 2&times; Daddy
 - <mdi-cross /> Methodist local preacher
 
 <br />
@@ -30,7 +30,7 @@ title: "Bio"
 
 - <mdi-briefcase-variant /> Full-stack web developer at Bump
 - <mdi-human-greeting-proximity /> umBristol meetup organiser
-- <mdi-trophy /> 3x Umbraco MVP
+- <mdi-trophy /> **3&times;** Umbraco MVP <v-click>**💁🏻‍♂️**</v-click>
 - <mdi-dog /> Dog owner
 - <game-icons-wood-canoe /> Canoe instructor
 
