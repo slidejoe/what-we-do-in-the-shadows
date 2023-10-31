@@ -17,9 +17,9 @@ title: "Bio"
 
 <br />
 
-- <mdi-dev-to /> [dev.to/JasonElkin](https://dev.to/jasonelkin)
-- <mdi-mastodon /> [@jason@umbracocommunity.social](https://umbracocommunity.social/@jason)
-- <mdi-linkedin /> [linkedin.com/in/jason-elkin](https://www.linkedin.com/in/jason-elkin/)
+- <mdi-dev-to /> [dev.to/**JasonElkin**](https://dev.to/jasonelkin)
+- <mdi-mastodon /> [**@jason**@umbracocommunity.social](https://umbracocommunity.social/@jason)
+- <mdi-linkedin /> [linkedin.com/in/**jason-elkin**](https://www.linkedin.com/in/jason-elkin/)
 - <ri-twitter-x-fill /> [@JasonElkin86](https://x.com/JasonElkin86)
 
 ::right::
@@ -36,6 +36,6 @@ title: "Bio"
 
 <br />
 
-- <material-symbols-rss-feed /> [joe.gl/ombek](https://joe.gl/ombek)
-- <mdi-mastodon /> [@joe@umbracocommunity.social](https://umbracocommunity.social/@joe)
-- <mdi-linkedin /> [linkedin.com/in/glombek](https://www.linkedin.com/in/glombek/)
+- <material-symbols-rss-feed /> [**joe.gl**/ombek](https://joe.gl/ombek)
+- <mdi-mastodon /> [**@joe**@umbracocommunity.social](https://umbracocommunity.social/@joe)
+- <mdi-linkedin /> [linkedin.com/in/**glombek**](https://www.linkedin.com/in/glombek/)

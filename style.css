@@ -1,11 +1,26 @@
 :root {
+    /* Use for : Backgrounds */
     --bump-haiti-violet: #200D2F;
-    /* --bump-bahama-blue: #006096; */
-    /* --bump-jacksons-purple: #293396;
-    --bump-deep-koamaru: #151F79; */
+    
+    /* Use for : Brand shapes */
+    --bump-bahama-blue: #006096;
+
+    /* Use for : Brand shapes */
+    --bump-jacksons-purple: #293396;
+
+    /* Use for : Alternative to Jacksons Purple where more contrast is needed for elements sitting over the top */
+    --bump-deep-koamaru: #151F79;
+    
+    /* Use for : Text */
     --bump-text: #fff;
-    /* --bump-mischka-grey: #E1E1E8; */
+
+    /* Use for : Background alternative to white (mainly for assets other than web UI) */
+    --bump-mischka-grey: #E1E1E8;
+
+    /* Use for : Accent for highlighting interaction */
     --bump-jade: #00B17C;
+
+    /* Use for : General purpose accent. Do not use in large blocks. */
     --bump-salmon: #FF8970;
 
     --bump-bahama-blue-lightened: #14A9FF;
@@ -39,9 +54,9 @@
     --prism-json-property: #698c96; */
 
     --background: var(--bump-haiti-violet);
-    --current-line: hsl(232, 14%, 31%);
+    --current-line: var(--bump-jacksons-purple);
     --foreground: var(--bump-text);
-    --comment: hsl(225, 27%, 51%);
+    --comment: var(--bump-mischka-grey);
     --cyan: var(--bump-bahama-blue-lightened);
     --green: var(--bump-jade);
     --orange: var(--bump-salmon);
@@ -120,13 +135,13 @@
 ul {
     margin-left: 0;
 
-    &:has(li > svg:first-child) {
+    &:has(> li > svg:first-child) {
         list-style: none;
         padding-left: 0;
 
     }
 
-    li {
+    > li {
         &:has(> svg:first-child) {
             display: block;
             padding-left: 1.5em;
@@ -142,5 +157,21 @@ ul {
 
             font-size: calc(1em * var(--icon-scale));
         }
+    }
+}
+
+.slidev-layout {
+    a>strong {
+        font-weight: unset;
+    }
+
+    blockquote+p {
+        text-align: right;
+        opacity: 0.75;
+    }
+
+    .font-serif strong {
+        /* This font doesnt work when bold */
+        font-weight: normal;
     }
 }
