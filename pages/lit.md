@@ -7,12 +7,14 @@ title: Lit
 <div class="flex items-start">
   <div>
 
-  - Lit is a lightweight, highly efficient library for building web components.
-  - It simplifies web component development by providing a small API for reactive data binding, templates, and rendering.
-  - Lit's lit-html template system offers a performant way to define and update component templates.
-  - It's a powerful choice for rapidly creating web components with minimal overhead.
-  - UUI uses Lit
-  - _Don't use it_ for everything. It's really designed for UI libraries
+  - UUI & Belissima uses Lit
+  - It simplifies web component development by providing small APIs for:
+    - reactive data binding
+    - templating
+    - <mdi-recycle/> lifecycle
+
+  - _Don't use it_ for everything. It's  designed for rich HTML applications, (like the Umbraco Backoffice!)
+  - It's *just* TypeScript
 
   <div class="mt-10">
 
@@ -25,4 +27,6 @@ title: Lit
 
 <!--
 # Jason
+
+It's JUST Typescript
 -->

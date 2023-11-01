@@ -99,10 +99,16 @@ With only a little bit of finagling 😁
 ---
 layout: intro
 title: Maximum Markdown Demo
+class: text-center
 ---
+
 <h1 class="font-serif">
     <strong>Maximum</strong> Markdown
 </h1>
 
 A demo of an unreleased Umbraco Package...  
 What could go wrong 🤷
+
+<v-click>
+<img src="/excited.webp" class="mx-auto">
+</v-click>
