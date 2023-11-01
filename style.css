@@ -75,7 +75,11 @@
     background-blend-mode: multiply;
     background-blend-mode: hard-light;
 
+    text-align: center;
+
     h1 {
+
+        @apply font-serif;
 
         transform: perspective(5em) rotateX(18deg);
 
@@ -105,9 +109,6 @@
             0.75px 0.75px var(--shadow),
             0.5px 0.5px var(--shadow),
             0.25px 0.25px var(--shadow);
-
-        text-align: center;
-
         >* {
             display: block;
         }
@@ -173,5 +174,16 @@ ul {
     .font-serif strong {
         /* This font doesnt work when bold */
         font-weight: normal;
+    }
+
+    &.intro {
+        h1 {
+            @apply: font-serif;
+            font-weight: normal;
+        }
+    }
+
+    &.two-cols-header {
+        grid-template-rows: auto 1fr;
     }
 }

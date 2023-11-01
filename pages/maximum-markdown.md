@@ -1,4 +1,9 @@
 ---
+layout: cover
+---
+# Future-proofing AngularJS
+
+---
 title: I hate using AngularJS
 layout: statement
 ---
