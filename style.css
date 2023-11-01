@@ -71,7 +71,7 @@
 }
 
 .slidev-layout.cover {
-    background-image: linear-gradient(var(--background), var(--background)), url(smoke-bg.webp);
+    background-image: linear-gradient(var(--background), var(--background)), url(/smoke-bg.webp);
     background-blend-mode: multiply;
     background-blend-mode: hard-light;
 
