@@ -9,13 +9,13 @@ Because who doesn't want to run two versions of Bootstrap in parallel?
 
 <v-clicks depth="2">
 
-- <mdi-bank />Client has a legacy website
-  - <mdi-bootstrap />Bootstrap 3
-  - <mdi-jquery />jQuery
-- <mdi-creation-outline />Client wants new shiny things
-- <mdi-emoticon-sad-outline />We don't want to build new shiny things in Bootstrap 3 and jQuery
-- <mdi-arrow-up-bold-hexagon-outline />Site needs upgrading over time
-
+- <mdi-bank /> Client has a legacy website
+  - <mdi-bootstrap /> Bootstrap 3
+  - <mdi-jquery /> jQuery
+- <mdi-creation-outline /> Client wants new shiny things
+- <mdi-emoticon-sad-outline /> *We* don't want to build new shiny things in Bootstrap 3 and jQuery
+- <mdi-arrow-up-bold-hexagon-outline /> Site needs upgrading over time
+- <game-icons-resting-vampire /> It's **undead** and **immortal**
 </v-clicks>
 
 <!--
@@ -33,9 +33,13 @@ Because who doesn't want to run two versions of Bootstrap in parallel?
 - Insert new header and footer into legacy pages
 - New pages will be built from scratch, using the new header and footer
 
+<v-click>
+
 So, we need:
 - A way to insert new components into the legacy site, without everything breaking
 - No *"hacks"* in the new pages
+
+</v-click>
 
 
 ---
@@ -75,7 +79,7 @@ p {
 <v-clicks>
 
 - <mdi-check /> Styles in a scoped stylesheet only affect siblings and below
-- <mdi-close /> Inline style only (or `import`)
+- <mdi-close /> Inline style only (or `@import`)
 - <mdi-close /> Global styles still pollute the scoped component
 - <mdi-close /> We don't want Bootstrap 3 styles to affect new Bootstrap 5 components
 </v-clicks>
@@ -136,7 +140,7 @@ document.querySelector('my-web-component')
 ::right::
 <v-click>
 
-!["Oops"](oops.webp)
+!["Oops"](/oops.webp)
 
 </v-click>
 

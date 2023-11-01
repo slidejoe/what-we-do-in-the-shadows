@@ -8,6 +8,8 @@ layout: two-cols-header
 - <mdi-github /> [glombek/shadowy-style](https://github.com/glombek/shadowy-style) and [JasonElkin/maximum-markdown](https://github.com/JasonElkin/maximum-markdown)
 - <mdi-chat /> Please stay in touch and ask questions:
 
+<br />
+
 ::left::
 
 <img src="/jason.jpg" class="aspect-square h-30 rounded-full mb-2" />
