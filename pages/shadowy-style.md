@@ -87,7 +87,7 @@ class: text-center
 
 <v-click>
 
-<img src="dont-say-it.webp" alt="&quot;Don't say it!&quot;" class="h-64 mx-auto"/>
+<img src="/dont-say-it.webp" alt="&quot;Don't say it!&quot;" class="h-64 mx-auto"/>
 
 </v-click>
 <v-click>
@@ -148,7 +148,7 @@ class: text-center
 
 <v-clicks>
 
-<p><img src="now-im-a-wizard.webp" alt="&quot;and now I'm a wizard&quot;" class="h-64 mx-auto"/></p>
+<p><img src="/now-im-a-wizard.webp" alt="&quot;and now I'm a wizard&quot;" class="h-64 mx-auto"/></p>
 
 # Introducing **`shadowy-style`**!
 
