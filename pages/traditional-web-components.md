@@ -1,3 +1,7 @@
+---
+title: Traditional use cases for web components
+---
+
 # Traditional use cases for web components
 <v-clicks>
 
@@ -7,7 +11,9 @@
 - <mdi-library-shelves /> web component libraries
 
 </v-clicks>
+
 <!--
+# Jason
 - 
 - 
 - fostering consistency and reducing redundancy.

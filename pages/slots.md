@@ -1,3 +1,7 @@
+---
+title: Slots
+---
+
 # Slots
 
 - Slots are a feature of web components that allow for flexible content distribution.
@@ -10,3 +14,7 @@
   <h1>Here's some content nested inside my web component!</h1>
 </my-web-component>
 ```
+
+<!--
+# Joe
+-->
