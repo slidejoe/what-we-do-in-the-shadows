@@ -5,9 +5,9 @@ title: Slots
 # Slots
 
 - <mdi-card-plus-outline /> Define insertion points within a component's template where content can be dynamically placed
-- <mdi-button-cursor /> Great for scenarios like:
-  - buttons with varying labels 
-  - cards with different content structures
+- <mdi-lightbulb /> Great for scenarios like:
+  - <mdi-button-cursor /> buttons with varying labels 
+  - <mdi-cards-outline /> cards with different content structures
 
 ```html
 <my-button>

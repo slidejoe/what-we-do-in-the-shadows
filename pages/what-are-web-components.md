@@ -32,7 +32,7 @@ title: What are web components?
 - Web components are a set of web platform APIs that enable the creation of custom, reusable HTML elements.
 - They encapsulate both the structure and behaviour of these elements.
 - 4 main techs:
-  - Custom Elements - a set of JS APIs that allow you to define custom elements and their behavior - what we think of as "web components"
+  - Custom Elements - define custom elements and their behaviour - what we think of as "web components"
   - Shadow DOM - used to encapsulate styles and markup - more on this later
   - HTML templates - `<template>` and `<slot>` elements - write templates that are not directly rendered on the page. Reusable
   - JS Modules - encapsulation of scripts
