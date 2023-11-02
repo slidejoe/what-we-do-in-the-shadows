@@ -15,11 +15,16 @@ title: What Matt Brailsford Says About AngularJS
 ---
 <div class="flex items-center">
 <div class="flex-grow">
-<h1><span class="font-size-15 line-height-20">"AngularJS<br><strong class="font-size-25">is a tool</strong>..."</span></h1>
+<h1><span class="font-size-15 line-height-20">"AngularJS<br><strong class="font-size-25">is a TOOL</strong>"<sup>*</sup></span></h1>
 
 ### Matt Brailsford  
 
 Northerner, Umbraco HQ
+
+<br/>
+<br/>
+
+<sup>*</sup> Emphasis mine, quote may have been taken out of context 😉
 
 </div>
 
@@ -77,8 +82,8 @@ title: You can use Modern JS in the current backoffice
 <v-clicks>
 
 - With web components we can:
-  - <mdi-language-javascript/> Use Modern JS (and encapsulate it)
-  - <mdi-hammer-wrench/> Make use of modern tooling
+  - <mdi-language-javascript/> Use Modern JS (ES6+, ESM etc.)
+  - <mdi-hammer-wrench/> Make use of modern tooling (Vite w/ HMR, intellisense etc.)
   - <mdi-file-question-outline/> Avoid angular's weird conventions
 - ~~ab~~use the global scope to access services
 - <mdi-umbraco/> Use UUI to make it pretty
