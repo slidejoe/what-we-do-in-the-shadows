@@ -8,7 +8,7 @@ title: Lit
   <div>
 
   - UUI & Belissima uses Lit
-  - It simplifies web component development by providing small APIs for:
+  - It simplifies web component development by providing APIs for:
     - reactive data binding
     - templating
     - <mdi-recycle/> lifecycle

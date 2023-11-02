@@ -1,5 +1,7 @@
 ---
 title: Shadow DOM
+layout: iframe-right
+url: /uui.html
 ---
 
 # Shadow DOM
@@ -18,14 +20,16 @@ Consider:
 ```html
 <uui-color-picker/>
 ```
-<ColourPicker/>
+
+👀👉
 <!--
 # Jason
 
 - Inspiration for title
-- It enables the creation of isolated DOM subtrees within an element, preventing CSS conflicts.
-- Encapsulation ensures that styling and functionality of a component do not affect or get affected by the surrounding page.
-- It's a fundamental feature for building robust and modular web components.
+- It enables the creation of isolated DOM subtrees within an element, prevents
+  - CSS conflicts
+  - Side effects
+
 
 Just an HTML tag...
 -->
