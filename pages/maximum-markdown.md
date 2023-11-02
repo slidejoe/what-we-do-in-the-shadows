@@ -23,7 +23,7 @@ Northerner, Umbraco HQ
 
 </div>
 
-<img class="w-67 ml-20" src="/matt_brailsford.jpg"/>
+<img class="w-67 ml-20" src="/matt_brailsford.jpg" alt="Matt Brailsford at CodeCabin, one foot up a staircase, leaning on the bannister while looking back over his shoulder towards the camera, pouting."/>
 
 </div>
 ---
@@ -47,7 +47,7 @@ title: Why I hate using AngularJS
     - Community Support
     - etc.
 - <mdi-school/> I can&apos;t, in good conscience, ask a junior dev to learn it...
-- But I <img src="/our_heart.png" width="25" height="25" class="inline"/> the Umbraco backoffice...
+- But I <img src="/our_heart.png" width="25" height="25" class="inline" alt="Codegarden Heart"/> the Umbraco backoffice...
 
 </v-clicks>
 
@@ -110,5 +110,5 @@ A demo of an unreleased Umbraco Package...
 What could go wrong 🤷
 
 <v-click>
-<img src="/excited.webp" class="mx-auto">
+<img src="/excited.webp" class="mx-auto" alt="Animation of Colin from What We Do In The Shadows saying &quot;I'm excited!&quot;">
 </v-click>

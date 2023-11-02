@@ -12,7 +12,7 @@ layout: two-cols-header
 
 ::left::
 
-<img src="/jason.jpg" class="aspect-square h-30 rounded-full mb-2" />
+<img src="/jason.jpg" class="aspect-square h-30 rounded-full mb-2" alt="Jason wearing a colourful shirt and a conference lanyard, a broad smile on his face." />
 
 ## Jason Elkin
 
@@ -23,7 +23,7 @@ layout: two-cols-header
 
 ::right::
 
-<img src="/joe.png" class="aspect-square h-30 rounded-full mb-2" />
+<img src="/joe.png" class="aspect-square h-30 rounded-full mb-2" alt="Joe, a bearded man with short hair and glasses, on stage at Codegarden holding a microphone." />
 
 ## Joe Glombek
 

@@ -22,7 +22,7 @@ title: Lit
 
   </div>
   </div>
-  <img src="/lit.svg" class="m-10 w-70"/>
+  <img src="/lit.svg" class="m-10 w-70" alt="Lit logo" />
 </div>
 
 <!--

@@ -91,7 +91,7 @@ class: text-center
 
 <v-click>
 
-<img src="/dont-say-it.webp" alt="&quot;Don't say it!&quot;" class="h-64 mx-auto"/>
+<img src="/dont-say-it.webp" alt="Animation of Nandor from What We Do In The Shadows saying &quot;Don't say it!&quot;" class="h-64 mx-auto"/>
 
 </v-click>
 <v-click>
@@ -140,7 +140,7 @@ document.querySelector('my-web-component')
 ::right::
 <v-click>
 
-!["Oops"](/oops.webp)
+![Animation of Nandor from What We Do In The Shadows saying "Oops" and hastily walking off screen.](/oops.webp)
 
 </v-click>
 
@@ -152,7 +152,7 @@ class: text-center
 
 <v-clicks>
 
-<p><img src="/now-im-a-wizard.webp" alt="&quot;and now I'm a wizard&quot;" class="h-64 mx-auto"/></p>
+<p><img src="/now-im-a-wizard.webp" alt="Animation of Nandor from What We Do In The Shadows wearing a traffic cone on his head and saying &quot;and now I'm a wizard&quot;" class="h-64 mx-auto"/></p>
 
 # Introducing **`shadowy-style`**!
 

@@ -22,7 +22,7 @@ title: What are web components?
 ::right::
 <v-click>
 
-!["Hell yes! I'm all in."](/im-all-in.gif)
+![Animation of Nadja from What We Do In The Shadows saying "Hell yes! I'm all in."](/im-all-in.gif)
 
 </v-click>
 
